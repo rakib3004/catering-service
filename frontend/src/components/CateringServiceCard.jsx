@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CateringServiceCard = () => {
+const CateringServiceCard = ({cateringService}) => {
   return (
-    <div>CateringServiceCard</div>
+    <div></div>
   )
 }
 
