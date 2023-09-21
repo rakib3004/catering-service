@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const FoodMenu = () => {
   return (
-    <div>FoodMenu</div>
+    <div>
+    <Navbar/>
+    <CateringServiceList/>
+</div>
   )
 }
 
