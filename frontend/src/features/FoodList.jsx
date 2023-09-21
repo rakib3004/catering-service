@@ -5,65 +5,59 @@ const FoodList = () => {
 
   const foods = [
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/fish-curry.png",
+      name: "Fish Curry",
+      price: "150 tk",
     },
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/kacchi.png",
+      name: "Kacchi",
+      price: "250 tk",
     },
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/chicken-biriyani.png",
+      name: "Chicken Biriyani",
+      price: "150 tk",
     },
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/chicken-kichuri.png",
+      name: "Chicken Kichuri",
+      price: "150 tk",
     },
 
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/chicken-fried-rice.png",
+      name: "Chicken Fried Rice",
+      price: "150 tk",
     },
  
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/beef-kichuri.png",
+      name: "Beef Kichuri",
+      price: "200 tk",
     },
     
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/morog-polau.png",
+      name: "Morog Polau",
+      price: "170 tk",
     },
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/beef-biriyani.png",
+      name: "Beef Biriyani",
+      price: "210 tk",
     },
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/vorta-vaat.png",
+      name: "Vorta Vaat",
+      price: "70 tk",
     },
     {
-      image: "",
-      name: "",
-      price: "",
+      image: "food/fried-rice-with-curry.png",
+      name: "Fried Rice with Curry",
+      price: "110 tk",
     },
-    {
-      image: "",
-      name: "",
-      price: "",
-    },
-
-
+  
   ];
 
     return (

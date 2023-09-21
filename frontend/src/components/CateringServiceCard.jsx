@@ -2,16 +2,7 @@ import React from 'react'
 
 const CateringServiceCard = ({cateringService}) => {
   return (
-    // <div>
-    //   <div className='h-12 w-12 rounded-full '>
-    //   <img src={cateringService.image} alt={cateringService.name}/>
 
-    //   </div>
-    //   <h1>{cateringService.name}</h1>
-    //   <h2>{cateringService.location}</h2>
-    //   <h2>Total Items{cateringService.items}</h2>
-
-    // </div>
 
     <div class="group ease-in-out transition w-36 lg:w-64 mx-4 my-2 p-1 lg:p-8 bg-white hover:bg-[#6251A7] lg:ring-4 ring-2 ring-[#6251A7]  rounded-xl shadow-md transform hover:scale-105 duration-500">
     <img
