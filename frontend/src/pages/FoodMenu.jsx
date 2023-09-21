@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import FoodList from '../features/FoodList';
+import FoodMenuList from '../features/FoodMenuList';
 const FoodMenu = () => {
   return (
     <div>
     <Navbar/>
-    <FoodList/>
+    <FoodMenuList/>
 </div>
   )
 }

@@ -21,7 +21,7 @@ const Table = ({titles, persons}) => {
             <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-gray-200"}>
               <td className="border px-4 py-2 text-center">{person.name}</td>
               <td className="border px-4 py-2 text-center">{person.email}</td>
-              <td className="border px-4 py-2 text-center">{person.join}</td>
+              <td className="border px-4 py-2 text-center">{person.joiningDate}</td>
               <td className="border px-4 py-2 text-center">
                 <button
                   className="bg-red-500 hover:bg-red-700 text-white font-base py-1 px-2 rounded focus:outline-none focus:shadow-outline"

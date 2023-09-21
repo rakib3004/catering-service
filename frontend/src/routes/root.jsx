@@ -7,6 +7,7 @@ import Managers from "../pages/Managers";
 import SubscriptionDetails from "../pages/SubscriptionDetails";
 import FoodMenu from "../pages/FoodMenu";
 import Employees from "../pages/Employees";
+import Foods from "../pages/Foods";
 
 const router = createBrowserRouter([
 
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
 
     
     {
-        path: '/foods',
+        path: '/foodmenu',
         element: <FoodMenu />,
     },
 
@@ -32,6 +33,12 @@ const router = createBrowserRouter([
         path: '/',
         element: <CateringServiceMenu />,
     },
+      
+    {
+        path: '/foods',
+        element: <Foods />,
+    },
+
     {
         path: '/managers',
         element: <Managers />,
