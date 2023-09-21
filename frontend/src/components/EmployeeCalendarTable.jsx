@@ -20,7 +20,7 @@ const EmployeeCalendarTable = ({list}) => {
               <button
                 className={`${info.color}  text-white font-base py-1 px-2 rounded focus:outline-none focus:shadow-outline`}
               >
-                info.status
+                {info.status}
               </button>
             </td>
           </tr>
