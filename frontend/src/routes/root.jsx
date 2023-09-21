@@ -6,13 +6,11 @@ import CateringServiceMenu from "../pages/CateringServiceMenu";
 import Managers from "../pages/Managers";
 import SubscriptionDetails from "../pages/SubscriptionDetails";
 import FoodMenu from "../pages/FoodMenu";
+import Employees from "../pages/Employees";
 
 const router = createBrowserRouter([
 
-    // {
-    //     path: '/',
-    //     element: <App />,
-    // },
+ 
 
     
     {
@@ -37,7 +35,14 @@ const router = createBrowserRouter([
     {
         path: '/managers',
         element: <Managers />,
-    },  {
+    }, 
+
+    {
+        path: '/employees',
+        element: <Employees />,
+    }, 
+    
+    {
         path: '/subsciption',
         element: <SubscriptionDetails />,
     },
