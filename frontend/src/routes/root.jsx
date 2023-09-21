@@ -8,6 +8,7 @@ import SubscriptionDetails from "../pages/SubscriptionDetails";
 import FoodMenu from "../pages/FoodMenu";
 import Employees from "../pages/Employees";
 import Foods from "../pages/Foods";
+import EmployeeCalendar from "../pages/EmployeeCalendar";
 
 const router = createBrowserRouter([
 
@@ -48,6 +49,11 @@ const router = createBrowserRouter([
         path: '/employees',
         element: <Employees />,
     }, 
+    {
+        path: '/calendar',
+        element: <EmployeeCalendar/>
+    }, 
+    
     
     {
         path: '/subsciption',
