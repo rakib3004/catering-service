@@ -1,5 +1,6 @@
 import React from 'react'
 import FoodCard from '../components/FoodCard'
+import { useNavigate } from 'react-router-dom';
 
 const FoodList = () => {
 
@@ -57,14 +58,19 @@ const FoodList = () => {
       name: "Fried Rice with Curry",
       price: "110 tk",
     },
-  
   ];
-
+  const navigate = useNavigate()
+const goToCart=()=>{
+navigate('/cart')
+}
     return (
         <div  className="mx-6 lg:mx-20 mt-5 lg:mt-10 grid gap-1 lg:gap-4 grid-cols-2 lg:grid-cols-4">
             {
                 foods.map((food) => (
+                  <button onClick={goToCart}>
                     <FoodCard key={food.name} food={food} />
+
+                  </button>
                 ))
 
             }    </div>
